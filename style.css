@@ -1,0 +1,258 @@
+:root{
+    --royal-blue-light: #7eb9fd;
+    --royal-blue-dark: #75aceb;
+    --white: #fff;
+    --background: #fcfdff; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--background);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--royal-blue-light);
+    height: 4.6875rem; 
+    padding: 1rem;
+    border-bottom: 2px solid #6899d1;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.logo img{
+    width: 320px;
+    padding-top: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    padding-right: 50px;
+}
+
+.menu a {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.menu a:hover{
+    background: var(--royal-blue-dark);
+    font-size: 18px;
+}
+
+.main img{
+    height: 700px;
+    width: 100%;
+    
+}
+
+.about{
+    margin: 80px 160px;
+    text-align: center;
+}
+
+.about h1{
+    color: rgb(27, 27, 27);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p{
+    line-height: 30px;
+}
+
+.footer{
+    background: var(--royal-blue-light);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+/*Comandos da página de contato*/
+
+.contact{
+    margin: 0 auto;
+    color: rgb(27, 27, 27);
+}
+.contact-1{
+    float: left;
+    margin: 50px 0px 50px 180px;
+}
+.contact-1 img{
+    width: 400px;
+    height: auto;
+}
+.contact-2{
+    width: 40%;
+    float: right;
+    margin:  50px 180px 50px 00px;
+}
+.contact-2 h1{
+    font-size: 60px;
+    color: rgb(253, 253, 17);
+    text-shadow: 3px 2px rgb(243, 243, 1);
+    padding: 0px 20px 18px 20px;
+}
+.contact-2 h2{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.contact-2 h3{
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 20px;
+}
+.contact-2 p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 20px;
+}
+.contact-2 ul{
+    list-style: none;
+    line-height: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/*Comandos da página da dislexia*/
+
+.dislexia-principal{
+    word-wrap: break-word;
+}
+
+.definition{
+    width: 90%;
+    margin: 0px 65px;
+    display: inline-flex;
+    padding: 50px;
+}
+
+.definition img{
+    width: 300px;
+    margin-left: 520px;
+    display: inline-block;
+}
+
+.title h1{
+    background-color: rgb(253, 253, 17);
+    color: rgb(0, 46, 99);
+    display: inline-block;
+    padding: 5px;
+    margin: 50px 0px 0px 110px;
+    border-bottom: 5px solid rgb(243, 243, 1);
+    border-radius: 5px 10px;
+}
+
+.definition-1 p{
+    width: 800px;
+    line-height: 25px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.definition-1{
+    width: 300px;
+    display: inline-block;
+}
+
+.leitura{
+    background-color: rgb(253, 244, 119);
+    height: 600px;
+    width: 100%;
+    display: inline-flex;
+}
+
+.leitura h1{
+    margin-top: 15px;
+    margin-left: 8px;
+    color: rgb(0, 46, 99);
+    font-size: 30px;
+    text-shadow: 2px 1px rgb(33, 110, 204);
+}
+.leitura img{
+    width: 300px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.leitura-c{
+    margin-left: 100px;
+}
+.efeitos p{
+    text-align: justify;
+    line-height: 20px;
+    width: 80%;
+    color:rgb(0, 46, 99);
+    margin-left: 70px;
+    margin-top: 70px;
+    word-wrap: break-word;
+}
+
+.efeitos ul{
+    color: rgb(0, 46, 99);
+    margin: 5px 90px;
+}
+
+.tratar-p h1{
+    color: rgb(0, 46, 99);
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 35px;
+    text-shadow: 2px 1px rgb(33, 110, 204);
+}
+.tratar-p{
+    width: 85%;
+    text-align: justify;
+    margin: 15px 100px; 
+    line-height: 25px;
+}
+.card{
+    display: inline-block;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+.card p{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card img{
+    width: 150px;
+    margin: 0px 30px;
+}
+.card-1, .card-2, .card-3, .card-4{
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 20%;
+}

@@ -1,0 +1,61 @@
+/* GERAL */
+a.disabled {
+    pointer-events: none;
+}
+
+/* HEADER */
+nav {
+    box-shadow: 0 0 20px #888;
+}
+nav img {
+    max-width: 3rem;
+}
+.nav-pills .show>.nav-link {
+    color: #007bff;
+    background-color: #fff;
+}
+
+/* FORMULÁRIOS */
+form {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+/* ÁREA DO JOGO */
+.celula {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.celula[disabled] {
+    background: #ccc;
+}
+@media screen and (max-width: 660px) {
+    .celula {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .celula {
+        width: 14px;
+        height: 14px;
+    }
+    .col-lg-9.p-4.text-center {
+        padding: 0!important;
+        padding-top: 1.5rem!important;
+    }
+}
+.dica {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+}
+.acerto {
+    background-color: #00ff0054;
+}
+
